@@ -38,16 +38,19 @@ This directory allows traffic to be switched only after the new environment (Gre
 
 ## 🎯 Outcome
 ✅ Achieved zero-downtime deployment through Terraform
+
 ✅ Implemented automated traffic switching between Blue and Green environments
+
 ✅ Reduced deployment risks while maintaining infrastructure consistency
+
 ✅ Demonstrated real-world DevOps automation best practices
 
 ## 🧠 Key Takeaways
-Blue-Green deployment enables safer and faster rollouts
+- Blue-Green deployment enables safer and faster rollouts
 
-Terraform’s declarative approach simplifies repeatable infrastructure creation
+- Terraform’s declarative approach simplifies repeatable infrastructure creation
 
-Modular directory design supports scalable and maintainable IaC practices
+- Modular directory design supports scalable and maintainable IaC practices
 
 
 ## Getting Started

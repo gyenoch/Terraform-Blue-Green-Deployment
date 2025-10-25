@@ -43,9 +43,3 @@ data "aws_security_group" "app_sg" {
   name = var.sg_name
 }
 
-# data "aws_lb_listener" "existing_listener" {
-#   count             = var.env == "green" ? 1 : 0
-#   load_balancer_arn = data.aws_lb.app_lb.arn
-#   port              = 80
-# }
-

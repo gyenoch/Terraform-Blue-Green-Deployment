@@ -9,6 +9,20 @@ This project demonstrates a Blue-Green Deployment strategy implemented with Terr
 
 By maintaining two identical environments — Blue (live) and Green (staging) — this project enables smooth transitions between versions while minimizing deployment risks.
 
+## 🧩 Project Structure
+
+📁 VPC/
+Contains Terraform configurations for setting up the foundational AWS infrastructure — including the VPC, subnets, route tables, security groups, and an Application Load Balancer (ALB).
+This shared network layer serves both Blue and Green environments to ensure consistent and cost-effective resource management.
+
+📁 Terraform/
+Defines the core infrastructure for both Blue and Green deployments, including EC2 instances, target groups, and necessary configurations.
+Each deployment is isolated but runs in the same network environment for easy switching and rollback.
+
+📁 Switch_Traffic/
+Contains Terraform files that handle traffic routing between Blue and Green deployments via the Application Load Balancer.
+This directory allows traffic to be switched only after the new environment (Green) has been tested and confirmed stable.
+
 
 ## Getting Started
 To get started with this project, refer to our [comprehensive guide](https://medium.com/@www.gyenoch/zero-downtime-deployments-made-simple-blue-green-architecture-with-terraform-workspaces-8a4f997d5e1a) that walks you through infrastructure provisioning, Blue and Green deployment and more.

@@ -45,9 +45,9 @@ This directory allows traffic to be switched only after the new environment (Gre
 
 ✅ Demonstrated real-world DevOps automation best practices
 
-![Image](https://github.com/user-attachments/assets/9fa3020e-2a7d-481c-981b-82ce54ebbaf2)
-
 <img width="1778" height="994" alt="Image" src="https://github.com/user-attachments/assets/40d82848-2e6d-489c-90a2-7713992a42ee" />
+
+<img width="1790" height="982" alt="Image" src="https://github.com/user-attachments/assets/2c555508-e084-4e0a-a7a8-8366637fc9ce" />
 
 ## 🧠 Key Takeaways
 - Blue-Green deployment enables safer and faster rollouts

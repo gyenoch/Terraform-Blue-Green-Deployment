@@ -1,7 +1,7 @@
 [![LinkedIn](https://img.shields.io/badge/Connect%20with%20me%20on-LinkedIn-blue.svg)](https://www.linkedin.com/in/gyenoch/)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@www.gyenoch)
 
-![Screenshot 2024-09-08 045210](https://github.com/user-attachments/assets/9fa3020e-2a7d-481c-981b-82ce54ebbaf2)
+![Image](https://github.com/user-attachments/assets/9fa3020e-2a7d-481c-981b-82ce54ebbaf2)
 
 ## 🚀 Zero-Downtime Blue-Green Deployment with Terraform
 
@@ -44,6 +44,10 @@ This directory allows traffic to be switched only after the new environment (Gre
 ✅ Reduced deployment risks while maintaining infrastructure consistency
 
 ✅ Demonstrated real-world DevOps automation best practices
+
+![Image](https://github.com/user-attachments/assets/9fa3020e-2a7d-481c-981b-82ce54ebbaf2)
+
+<img width="1778" height="994" alt="Image" src="https://github.com/user-attachments/assets/40d82848-2e6d-489c-90a2-7713992a42ee" />
 
 ## 🧠 Key Takeaways
 - Blue-Green deployment enables safer and faster rollouts

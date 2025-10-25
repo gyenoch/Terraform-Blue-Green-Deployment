@@ -26,6 +26,29 @@ Each deployment is isolated but runs in the same network environment for easy sw
 Contains Terraform files that handle traffic routing between Blue and Green deployments via the Application Load Balancer.
 This directory allows traffic to be switched only after the new environment (Green) has been tested and confirmed stable.
 
+## 🛠️ Tools & Technologies Used
+
+- Terraform – Infrastructure as Code for automating AWS    resource provisioning
+
+- AWS EC2 – Hosts the Blue and Green application environments
+
+- AWS Application Load Balancer (ALB) – Handles intelligent traffic routing between environments
+
+- Amazon VPC – Provides isolated networking for the deployments
+
+## 🎯 Outcome
+✅ Achieved zero-downtime deployment through Terraform
+✅ Implemented automated traffic switching between Blue and Green environments
+✅ Reduced deployment risks while maintaining infrastructure consistency
+✅ Demonstrated real-world DevOps automation best practices
+
+## 🧠 Key Takeaways
+Blue-Green deployment enables safer and faster rollouts
+
+Terraform’s declarative approach simplifies repeatable infrastructure creation
+
+Modular directory design supports scalable and maintainable IaC practices
+
 
 ## Getting Started
 To get started with this project, refer to our [comprehensive guide](https://medium.com/@www.gyenoch/zero-downtime-deployments-made-simple-blue-green-architecture-with-terraform-workspaces-8a4f997d5e1a) that walks you through infrastructure provisioning, Blue and Green deployment and more.
@@ -34,3 +57,7 @@ To get started with this project, refer to our [comprehensive guide](https://med
 We welcome contributions! If you have ideas for enhancements or find any issues, please open a pull request or file an issue.
 
 Happy Coding! 🚀
+
+## 🙏 Thank You for Reading!
+If you found this project insightful, don’t forget to ⭐ star the repository and connect with me on LinkedIn
+ for more DevOps automation projects! 💻✨

@@ -11,15 +11,15 @@ By maintaining two identical environments — Blue (live) and Green (staging) �
 
 ## 🧩 Project Structure
 
-📁 VPC/
+📁 **VPC/**
 Contains Terraform configurations for setting up the foundational AWS infrastructure — including the VPC, subnets, route tables, security groups, and an Application Load Balancer (ALB).
 This shared network layer serves both Blue and Green environments to ensure consistent and cost-effective resource management.
 
-📁 Terraform/
+📁 **Terraform/**
 Defines the core infrastructure for both Blue and Green deployments, including EC2 instances, target groups, and necessary configurations.
 Each deployment is isolated but runs in the same network environment for easy switching and rollback.
 
-📁 Switch_Traffic/
+📁 **Switch_Traffic/**
 Contains Terraform files that handle traffic routing between Blue and Green deployments via the Application Load Balancer.
 This directory allows traffic to be switched only after the new environment (Green) has been tested and confirmed stable.
 

@@ -66,5 +66,5 @@ We welcome contributions! If you have ideas for enhancements or find any issues,
 Happy Coding! 🚀
 
 ## 🙏 Thank You for Reading!
-If you found this project insightful, don’t forget to ⭐ star the repository and connect with me on [![LinkedIn](https://img.shields.io/badge/Connect%20with%20me%20on-LinkedIn-blue.svg)](https://www.linkedin.com/in/gyenoch/)
+If you found this project insightful, don’t forget to ⭐ star the repository and connect with me on [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue.svg)](https://www.linkedin.com/in/gyenoch/)
  for more DevOps automation projects! 💻✨
